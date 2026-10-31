@@ -10,7 +10,6 @@ import Footer from './components/footer/Footer.jsx';
 
 function App() {
   return <div>
-    {/* <h3>This is App Component</h3> */}
     <Navbar />
     <Categories />
     <Carousel />
