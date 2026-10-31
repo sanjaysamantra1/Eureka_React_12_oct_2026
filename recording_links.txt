@@ -57,3 +57,7 @@ Passcode: 7k$GM^16
 React_day_2_oct_30:
 https://zoom.us/rec/share/2ESw4ZqcwSqE98bb8WK4z5L_zTHQE4sHwnK3ttMigo7FeRpQpXyXA3njsYivruKf.pG1fHj6bjmebgTwi
 Passcode: i9H8&CT5
+
+React_day_3_oct_30:
+https://zoom.us/rec/share/2Bc7Y9HmLg2199BYMnhCBAaCkTYfI33iIYmHOOxJy0kMWS8iRHqcnUCw7f4phUJK.uxxdzLALUfZJZX4j?from=hub
+Passcode: r*!#H9*k
