@@ -69,3 +69,7 @@ Passcode: p.=+Dt3+
 React_day_5_nov_2:
 https://zoom.us/rec/share/UaruOS7uapJVil_0vXp3KvRSOlhcgMoHq0njf__KdSeN9DM8p4GewM1i1H0I06o7.T-TjChGOzCwrW7XJ?from=hub
 Passcode: zrV0m?C5
+
+React_day_6_nov_3:
+https://zoom.us/rec/share/K_MZBhLfREm7KJntRK5JxggD7QY4eXBtIVPiDpvlyeaIQp5m-XPK_0bGm1NFUROV.g7PitjoesjhV_QRA
+Passcode: S8tqg?E7
