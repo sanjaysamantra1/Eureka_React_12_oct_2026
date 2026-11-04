@@ -73,3 +73,7 @@ Passcode: zrV0m?C5
 React_day_6_nov_3:
 https://zoom.us/rec/share/K_MZBhLfREm7KJntRK5JxggD7QY4eXBtIVPiDpvlyeaIQp5m-XPK_0bGm1NFUROV.g7PitjoesjhV_QRA
 Passcode: S8tqg?E7
+
+React_day_7_nov_4:
+https://zoom.us/rec/share/izNsB5pfrRQDKzkarTBlYvMl5mTuHpJqWdXzQ9EM5xhVvwnsFsuwmjjAKg3jxBWh.9Q1G-2ZK1jEMS6xS
+Passcode: 4i^2gk?G
