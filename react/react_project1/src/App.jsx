@@ -11,8 +11,8 @@ import Footer from './components/footer/Footer.jsx';
 function App() {
   return <div>
     <Navbar />
-    <Categories />
-    <Carousel />
+    {/* <Categories /> */}
+    {/* <Carousel /> */}
     <Body />
     <Footer />
   </div>

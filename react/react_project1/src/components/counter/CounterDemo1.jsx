@@ -4,14 +4,13 @@ import React from 'react';
 export default function CounterDemo1() {
     console.log('CounterDemo1 is being rendered...'); // Rendering Phase
     console.log(React);
-
-    /* 
-    var count = 0;  // Local Variable
+    
+    /* var count = 0;  // Local Variable
     const increment = () => {
         count = count + 1;  // UI is not re-rendered
         console.log('Increment...', count);
-    } 
-    */
+    }  */
+   
 
     const [count, setCount] = useState(0);
     const increment = () => {
