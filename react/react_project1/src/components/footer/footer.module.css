@@ -1,0 +1,4 @@
+.success { color: yellow; }
+.error { color: bisque; }
+.box { padding: 20px; border: 1px solid gray; }
+.active { background: red; }

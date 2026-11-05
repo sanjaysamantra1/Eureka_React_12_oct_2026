@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "./myStyles.css";
 
 export default function StateAssignment8() {
     const [num1, setNum1] = useState(10);
@@ -19,7 +20,7 @@ export default function StateAssignment8() {
     }
 
     return <>
-        <h3>Create two input boxes and a dropdown (+ , - , * , /) and perform arithmetic operations based on the selected operator.</h3>
+        <h3 style={{color:"purple",border:"3px dotted green"}}>Create two input boxes and a dropdown (+ , - , * , /) and perform arithmetic operations based on the selected operator.</h3>
 
         <input type="number" name="num1" value={num1} onInput={updateNum1} />
         <input type="number" name="num2" value={num2} onInput={(e) => setNum2(e.target.value)} className="mx-2" />
