@@ -77,3 +77,7 @@ Passcode: S8tqg?E7
 React_day_7_nov_4:
 https://zoom.us/rec/share/izNsB5pfrRQDKzkarTBlYvMl5mTuHpJqWdXzQ9EM5xhVvwnsFsuwmjjAKg3jxBWh.9Q1G-2ZK1jEMS6xS
 Passcode: 4i^2gk?G
+
+React_day_8_nov_5:
+https://zoom.us/rec/share/xO7z0GGRh36Tdz5spysGjxqxGSGwep4MKPcMeH0zZlBJTq36H2iI2ZfAtzCCAI4.X21g1Pd8OJ7g18JE
+Passcode: 9I^e6X0v
