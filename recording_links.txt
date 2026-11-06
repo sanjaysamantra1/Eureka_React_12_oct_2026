@@ -81,3 +81,7 @@ Passcode: 4i^2gk?G
 React_day_8_nov_5:
 https://zoom.us/rec/share/xO7z0GGRh36Tdz5spysGjxqxGSGwep4MKPcMeH0zZlBJTq36H2iI2ZfAtzCCAI4.X21g1Pd8OJ7g18JE
 Passcode: 9I^e6X0v
+
+React_day_9_nov_6:
+https://zoom.us/rec/share/VS0Up60K05Qri1UsKE9oT-W3Y96adLDTb8jFXr433_DYdRv7Pl3PbCl6fHRT3mX-.D9k3WN3RhbKS2lL0
+Passcode: f^#y6yeU
