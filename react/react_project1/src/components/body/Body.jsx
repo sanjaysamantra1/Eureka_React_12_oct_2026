@@ -1,5 +1,7 @@
 import CounterDemo1 from "../counter/CounterDemo1";
 import CounterDemo2 from "../counter/CounterDemo2";
+import FruitList from "../list/FruitList";
+import UserList from "../list/UserList";
 import ConditionalCss from "../state/ConditionalCss";
 import EvenOdd from "../state/EvenOdd";
 import StateAssignment1 from "../state/StateAssignment1";
@@ -19,6 +21,8 @@ export default function Body() {
         {/* <StateAssignment6/> */}
         {/* <StateAssignment7/> */}
         {/* <StateAssignment8/> */}
-        <ConditionalCss />
+        {/* <ConditionalCss /> */}
+        {/* <FruitList/> */}
+        <UserList/>
     </div>
 }
