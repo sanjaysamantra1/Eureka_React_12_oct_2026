@@ -2,6 +2,7 @@ import CounterDemo1 from "../counter/CounterDemo1";
 import CounterDemo2 from "../counter/CounterDemo2";
 import FruitList from "../list/FruitList";
 import ProductList from "../list/ProductList";
+import TaskList from "../list/TaskList";
 import UserList from "../list/UserList";
 import ConditionalCss from "../state/ConditionalCss";
 import EvenOdd from "../state/EvenOdd";
@@ -25,6 +26,7 @@ export default function Body() {
         {/* <ConditionalCss /> */}
         {/* <FruitList/> */}
         {/* <UserList/> */}
-        <ProductList/>
+        {/* <ProductList/> */}
+        <TaskList/>
     </div>
 }
