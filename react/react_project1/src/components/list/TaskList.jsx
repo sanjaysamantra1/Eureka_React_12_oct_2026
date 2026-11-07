@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-
 export default function TaskList() {
     const taskArr = [ // Local Variable
         { id: 1, title: 'Complete Angular assignment', completed: false },
@@ -26,7 +25,6 @@ export default function TaskList() {
             <option>Pending</option>
             <option>Completed</option>
         </select>
-
         {
             filteredTasks.map(task => (
                 <div key={task.id}>
