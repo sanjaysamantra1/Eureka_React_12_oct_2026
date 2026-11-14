@@ -2,6 +2,7 @@ import CounterDemo1 from "../counter/CounterDemo1";
 import CounterDemo2 from "../counter/CounterDemo2";
 import FruitList from "../list/FruitList";
 import ProductList from "../list/ProductList";
+import Products from "../list/Products";
 import TaskList from "../list/TaskList";
 import UserList from "../list/UserList";
 import EmployeeCRUD from "../props/EmployeeCRUD";
@@ -38,6 +39,7 @@ export default function Body() {
         </MyModal> */}
         {/* <Greet name="Somu" msg="Good Morning" sayHello={sayHello} />
         <Greet name="Amar" msg="Good Evening" sayHello={sayHello} /> */}
-        <EmployeeCRUD/>
+        {/* <EmployeeCRUD/> */}
+        <Products/>
     </div>
 }
