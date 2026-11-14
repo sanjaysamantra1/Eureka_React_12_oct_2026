@@ -93,3 +93,7 @@ Passcode: &n1sd3!N
 React_day_11_nov_9:
 https://zoom.us/rec/share/nr2nOx30_-SrMbijxM39GEd2hYfcRH_2Vi_xZoCB4JEQiRGY5dCyyCxx55U_VhU.3sUqECi9dhzr-RA2
 Passcode: $P8Bfv0k
+
+React_day_12_nov_14:
+https://zoom.us/rec/share/PEhJxmJnHg7G-gMvHIuK3GHa-afbjcIh2aEZnGAsUbwRbgT9Y1O0AL_Cc2K9yljn.0tJgSDMOI5QTjAKs
+Passcode: #9c3tOqm
