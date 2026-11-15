@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="f1(event)">Click Me</button>
+
+    <input onkeyup="changeHandler(event)">
+
+    <script>
+        function f1(event){
+            console.log('f1 called...')
+            console.log(event)
+        }
+        function changeHandler(event){
+            console.log(event)
+        }
+    </script>
+</body>
+</html>

@@ -97,3 +97,7 @@ Passcode: $P8Bfv0k
 React_day_12_nov_14:
 https://zoom.us/rec/share/PEhJxmJnHg7G-gMvHIuK3GHa-afbjcIh2aEZnGAsUbwRbgT9Y1O0AL_Cc2K9yljn.0tJgSDMOI5QTjAKs
 Passcode: #9c3tOqm
+
+React_day_13_nov_15:
+https://zoom.us/rec/share/vMn4hpd8UX4r5qtlBLjN4SpyFRLiJfpBXsrSAfAid8HKa_pjIzmzYoXKDBFABHZR.F6KQkJtQjbegbW_k
+Passcode: 0hMV=1J?

@@ -21,10 +21,20 @@ export default function Products() {
         );
         setItemOffset(newOffset);
     };
+    const hanldePaste = (event) => {
+        event.preventDefault(); // disable the paste functionality
+        alert('Paste is not allowed here...')
+    }
 
     return <>
         <h3 id="test3">Products With Pagination</h3>
         <div className="container">
+            <div className="row">
+                <div className="col-sm-6 offset-3">
+                    <input type="search" placeholder='Search...' className='form-control'
+                        onPaste={hanldePaste} />
+                </div>
+            </div>
             <div className="row mt-3">
                 {filteredProducts.map((product) => {
                     return <div className="col-sm-3" key={product.id}>

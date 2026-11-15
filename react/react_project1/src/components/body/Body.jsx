@@ -1,5 +1,8 @@
 import CounterDemo1 from "../counter/CounterDemo1";
 import CounterDemo2 from "../counter/CounterDemo2";
+import Addition from "../events/Addition";
+import EmployeeForm from "../events/EmployeeForm";
+import EventDemo1 from "../events/EventDemo1";
 import FruitList from "../list/FruitList";
 import ProductList from "../list/ProductList";
 import Products from "../list/Products";
@@ -40,6 +43,9 @@ export default function Body() {
         {/* <Greet name="Somu" msg="Good Morning" sayHello={sayHello} />
         <Greet name="Amar" msg="Good Evening" sayHello={sayHello} /> */}
         {/* <EmployeeCRUD/> */}
-        <Products/>
+        {/* <Products/> */}
+        <EventDemo1 />
+        {/* <Addition/> */}
+        {/* <EmployeeForm/> */}
     </div>
 }

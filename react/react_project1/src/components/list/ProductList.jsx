@@ -40,7 +40,7 @@ export default function ProductList() {
             </div>
             <div className="row mt-3">
                 {filteredProducts.map((product) => {
-                    return <div className="col-sm-3">
+                    return <div className="col-sm-3" key={product.id}>
                         <div className="card">
                             <img src={product.image} className="card-img-top" alt="..." style={{ height: "200px" }} />
                             <div className="card-body">
