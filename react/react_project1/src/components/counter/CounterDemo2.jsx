@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component, PureComponent } from 'react'
 
+// class CounterDemo2 extends PureComponent {
 class CounterDemo2 extends Component {
     constructor(props) {
         super(props);

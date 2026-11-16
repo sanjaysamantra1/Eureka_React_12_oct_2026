@@ -101,3 +101,7 @@ Passcode: #9c3tOqm
 React_day_13_nov_15:
 https://zoom.us/rec/share/vMn4hpd8UX4r5qtlBLjN4SpyFRLiJfpBXsrSAfAid8HKa_pjIzmzYoXKDBFABHZR.F6KQkJtQjbegbW_k
 Passcode: 0hMV=1J?
+
+React_day_14_nov_16:
+https://zoom.us/rec/share/-L3EFqJr11hFUxk03OaZ3ybLKe7_vPhBGS0-9mWqToSAN-Nkx1FhxruPyGosbQ2l.tH_vvNXBSAWbSGPI
+Passcode: Bw!d2^N9

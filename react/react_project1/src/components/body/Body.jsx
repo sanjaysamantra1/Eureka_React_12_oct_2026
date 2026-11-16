@@ -6,8 +6,12 @@ import EventDemo1 from "../events/EventDemo1";
 import FruitList from "../list/FruitList";
 import ProductList from "../list/ProductList";
 import Products from "../list/Products";
+import ProductSearch from "../list/ProductSearch";
 import TaskList from "../list/TaskList";
 import UserList from "../list/UserList";
+import ParentDemo from "../misc/ParentDemo";
+import PureDemo from "../misc/PureDemo";
+import PureDemo2 from "../misc/PureDemo2";
 import EmployeeCRUD from "../props/EmployeeCRUD";
 import Greet from "../props/Greet";
 import MyModal from "../props/MyModal";
@@ -44,8 +48,12 @@ export default function Body() {
         <Greet name="Amar" msg="Good Evening" sayHello={sayHello} /> */}
         {/* <EmployeeCRUD/> */}
         {/* <Products/> */}
-        <EventDemo1 />
+        {/* <EventDemo1 /> */}
         {/* <Addition/> */}
         {/* <EmployeeForm/> */}
+        {/* <PureDemo/> */}
+        {/* <PureDemo2/> */}
+        {/* <ParentDemo/> */}
+        <ProductSearch/>
     </div>
 }
