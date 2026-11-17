@@ -5,6 +5,7 @@ function ChildDemo(props) {
     return <>
         <div>Child Component</div>
         <div>courseName:{props.courseName}</div>
+        <button onClick={props.sayHello}>Say Hello</button>
     </>
 }
 export default React.memo(ChildDemo);

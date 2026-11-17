@@ -105,3 +105,7 @@ Passcode: 0hMV=1J?
 React_day_14_nov_16:
 https://zoom.us/rec/share/-L3EFqJr11hFUxk03OaZ3ybLKe7_vPhBGS0-9mWqToSAN-Nkx1FhxruPyGosbQ2l.tH_vvNXBSAWbSGPI
 Passcode: Bw!d2^N9
+
+React_day_15_nov_17:
+https://zoom.us/rec/share/RlRwc0jrLHtN6OdeakaE2Z0F9gqbhCu42sEOhUN2vOhFn2TAViMuZvwxZzi4QqyA.v8X0VFbhgPJsxw-F
+Passcode: 4tgo0=&p
