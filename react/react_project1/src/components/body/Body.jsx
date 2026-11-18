@@ -3,7 +3,9 @@ import CounterDemo2 from "../counter/CounterDemo2";
 import Addition from "../events/Addition";
 import EmployeeForm from "../events/EmployeeForm";
 import EventDemo1 from "../events/EventDemo1";
+import ControlledFormDemo1 from "../form/ControlledFormDemo1";
 import FormDemo1 from "../form/FormDemo1";
+import UnControlledFormDemo1 from "../form/UnControlledFormDemo1";
 import UseEffectDemo1 from "../hooks/UseEffectDemo1";
 import UseEffectDemo2 from "../hooks/UseEffectDemo2";
 import UserDetails from "../hooks/UserDetails";
@@ -62,6 +64,8 @@ export default function Body() {
         {/* <UseEffectDemo1/> */}
         {/* <UseEffectDemo2 /> */}
         {/* <UserDetails /> */}
-        <FormDemo1 />
+        {/* <FormDemo1 /> */}
+        <ControlledFormDemo1/>
+        <UnControlledFormDemo1/>
     </div>
 }
