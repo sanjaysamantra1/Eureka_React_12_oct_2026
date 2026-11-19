@@ -10,6 +10,7 @@ import UnControlledFormDemo1 from "../form/UnControlledFormDemo1";
 import UseEffectDemo1 from "../hooks/UseEffectDemo1";
 import UseEffectDemo2 from "../hooks/UseEffectDemo2";
 import UserDetails from "../hooks/UserDetails";
+import UserTable from "../http/UserTable";
 import FruitList from "../list/FruitList";
 import ProductList from "../list/ProductList";
 import Products from "../list/Products";
@@ -68,6 +69,7 @@ export default function Body() {
         {/* <FormDemo1 /> */}
         {/* <ControlledFormDemo1/> */}
         {/* <UnControlledFormDemo1/> */}
-        <FormikDemo1/>
+        {/* <FormikDemo1/> */}
+        <UserTable/>
     </div>
 }
