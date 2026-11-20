@@ -10,6 +10,8 @@ import UnControlledFormDemo1 from "../form/UnControlledFormDemo1";
 import UseEffectDemo1 from "../hooks/UseEffectDemo1";
 import UseEffectDemo2 from "../hooks/UseEffectDemo2";
 import UserDetails from "../hooks/UserDetails";
+import CommentTableAxios from "../http/CommentTableAxios";
+import PhotoTableAxios from "../http/PhotoTableAxios";
 import UserTable from "../http/UserTable";
 import UserTableAxios from "../http/UserTableAxios";
 import FruitList from "../list/FruitList";
@@ -72,6 +74,8 @@ export default function Body() {
         {/* <UnControlledFormDemo1/> */}
         {/* <FormikDemo1/> */}
         {/* <UserTable/> */}
-        <UserTableAxios/>
+        {/* <UserTableAxios/> */}
+        {/* <CommentTableAxios /> */}
+        <PhotoTableAxios/>
     </div>
 }
