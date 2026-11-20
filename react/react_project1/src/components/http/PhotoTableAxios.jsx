@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
+import client from '../../util/client';
 
 // fetch photo data using axios library and display in table
 export default function PhotoTableAxios() {
@@ -8,7 +9,7 @@ export default function PhotoTableAxios() {
 
     const fetchPhotoData = async () => {
         setLoading(true);
-        let response = await axios.get('https://jsonplaceholder.typicode.com/photos')
+        let response = await client.get('photos')
         setPhotoArr(response.data);
         setLoading(false);
     }

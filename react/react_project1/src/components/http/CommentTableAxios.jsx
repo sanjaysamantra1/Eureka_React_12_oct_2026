@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import client from '../../util/client';
 
 // fetch comment data using axios library and display in table
 export default function CommentTableAxios() {
     const [commentArr, setCommentArr] = useState([]);
 
     const fetchComments = async () => {
-        let response = await axios.get('https://jsonplaceholder.typicode.com/comments')
+        let response = await client.get('comments')
         setCommentArr(response.data);
     }
     useEffect(() => {

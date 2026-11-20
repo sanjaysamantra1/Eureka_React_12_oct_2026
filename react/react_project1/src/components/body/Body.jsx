@@ -75,7 +75,7 @@ export default function Body() {
         {/* <FormikDemo1/> */}
         {/* <UserTable/> */}
         {/* <UserTableAxios/> */}
-        {/* <CommentTableAxios /> */}
         <PhotoTableAxios/>
+        <CommentTableAxios />
     </div>
 }
