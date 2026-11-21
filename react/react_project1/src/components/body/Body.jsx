@@ -42,7 +42,7 @@ export default function Body() {
         {/* <CounterDemo1 /> */}
         {/* <CounterDemo2 /> */}
         {/* <StateDemo1/> */}
-        {/* <EvenOdd/> */}
+        <EvenOdd/>
         {/* <StateAssignment1/> */}
         {/* <StateAssignment6/> */}
         {/* <StateAssignment7/> */}
@@ -75,7 +75,7 @@ export default function Body() {
         {/* <FormikDemo1/> */}
         {/* <UserTable/> */}
         {/* <UserTableAxios/> */}
-        <PhotoTableAxios/>
-        <CommentTableAxios />
+        {/* <PhotoTableAxios/>
+        <CommentTableAxios /> */}
     </div>
 }

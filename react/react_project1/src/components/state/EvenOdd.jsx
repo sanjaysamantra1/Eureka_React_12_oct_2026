@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import WithLogger from '../hoc/WithLogger';
 
 /* 
 export default function EvenOdd() {  // Using ternary
@@ -28,7 +29,7 @@ export default function EvenOdd() {  // Using ternary
 } */
 
 
-export default function EvenOdd() {  // Using &&
+function EvenOdd() {  // Using &&
     const [num, setNum] = useState(4);
     const increment = () => setNum(num + 1);
     return <>
@@ -38,4 +39,5 @@ export default function EvenOdd() {  // Using &&
         <button className="btn btn-primary" onClick={increment}>+</button>
     </>
 }
-
+export default WithLogger(EvenOdd);
+// export default EvenOdd;

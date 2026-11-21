@@ -121,3 +121,7 @@ Passcode: utew5lL!
 React_day_18_nov_20:
 https://zoom.us/rec/share/5wGxl6X4SGCMYCASo9AAvj8-CV703nCRhzmEhQclq_d3ScISo0PggcYcE-935wd8.kOtAwEpMZgu0ioZU
 Passcode: ZrJ%D@y7
+
+React_day_19_nov_21:
+https://zoom.us/rec/share/MvuIO17xKyw3Ha7YywItpGe3iwQZfN1tKKB-ye_KFgX7qO8KwIlHTMJ2oF0NIk90.Z1dh3iVCWwi8mo6y
+Passcode: SbiN6@ta
