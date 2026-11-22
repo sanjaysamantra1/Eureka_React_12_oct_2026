@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router";
 import CounterDemo1 from "../counter/CounterDemo1";
 import CounterDemo2 from "../counter/CounterDemo2";
 import Addition from "../events/Addition";
@@ -33,6 +34,11 @@ import StateAssignment6 from "../state/StateAssignment6";
 import StateAssignment7 from "../state/StateAssignment7";
 import StateAssignment8 from "../state/StateAssignment8";
 import StateDemo1 from "../state/StateDemo1";
+import Home from "../routing/Home";
+import AboutUs from "../routing/AboutUs";
+import Careers from "../routing/Careers";
+import ContactUs from "../routing/ContactUs";
+import NotFound from "../routing/NotFound";
 
 export default function Body() {
     const sayHello = () => { alert('Helloooo') };
@@ -42,7 +48,7 @@ export default function Body() {
         {/* <CounterDemo1 /> */}
         {/* <CounterDemo2 /> */}
         {/* <StateDemo1/> */}
-        <EvenOdd/>
+        {/* <EvenOdd/> */}
         {/* <StateAssignment1/> */}
         {/* <StateAssignment6/> */}
         {/* <StateAssignment7/> */}
@@ -77,5 +83,13 @@ export default function Body() {
         {/* <UserTableAxios/> */}
         {/* <PhotoTableAxios/>
         <CommentTableAxios /> */}
+        <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/home" element={<Home />} />
+            <Route exact path="/aboutus" element={<AboutUs />} />
+            <Route exact path="/careers" element={<Careers />} />
+            <Route exact path="/contactus" element={<ContactUs />} />
+            <Route path="*" element={<NotFound />} />
+        </Routes>
     </div>
 }

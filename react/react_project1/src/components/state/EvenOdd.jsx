@@ -39,5 +39,5 @@ function EvenOdd() {  // Using &&
         <button className="btn btn-primary" onClick={increment}>+</button>
     </>
 }
-export default WithLogger(EvenOdd);
+export default WithLogger(EvenOdd); // EvenOdd + Logging
 // export default EvenOdd;
