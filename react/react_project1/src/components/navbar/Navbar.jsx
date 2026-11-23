@@ -1,4 +1,5 @@
-import { Link } from "react-router"
+import { NavLink } from "react-router";
+import "./navbar.css"
 
 export default function Navbar() {
     return <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
@@ -10,16 +11,16 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <Link className="nav-link" to="/home">Home</Link>
+                        <NavLink className="nav-link" to="/home">Home</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/aboutus">AboutUs</Link>
+                        <NavLink className="nav-link" to="/aboutus">AboutUs</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/careers">Careers</Link>
+                        <NavLink className="nav-link" to="/careers">Careers</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/contactus">Contact Us</Link>
+                        <NavLink className="nav-link" to="/contactus">Contact Us</NavLink>
                     </li>
                 </ul>
                 <form className="d-flex" role="search">
