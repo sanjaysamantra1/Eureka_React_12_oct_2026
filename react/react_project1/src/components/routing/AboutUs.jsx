@@ -15,5 +15,8 @@ export default function AboutUs() {
     <Link to="/home">Go To Home</Link>
     <br />
     <button className="btn btn-primary" onClick={doSomethingAndGoToHome}>do Something And Go To Home</button>
+    <br/>
+    <button onClick={() => navigate(-1)}>Go Back</button>
+    <button onClick={() => navigate(1)}>Go Next</button>
   </>
 }

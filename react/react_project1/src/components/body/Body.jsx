@@ -89,6 +89,8 @@ export default function Body() {
             <Route exact path="/aboutus" element={<AboutUs />} />
             <Route exact path="/careers" element={<Careers />} />
             <Route exact path="/contactus" element={<ContactUs />} />
+            <Route exact path="/users" element={<UserList />} />
+            <Route exact path="/products" element={<ProductList />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
     </div>
