@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import products from './product_data.js';
 import SearchBarModule from 'react-js-search';
+import { createSearchParams, useNavigate } from 'react-router';
 const SearchBar = SearchBarModule.default || SearchBarModule;
 
 export default function ProductList() {
@@ -21,6 +22,14 @@ export default function ProductList() {
         const sortedItems = products.sort((p1, p2) => p2.price - p1.price)
         setFilteredProducts([...sortedItems]);
     }
+
+    const navigate = useNavigate();
+    const navigateHandler = (id, title, price) => {
+        navigate({
+            pathname: "/productdetails",
+            search: `?${createSearchParams({ id, title, price })}`,
+        });
+    };
     return <>
         <h3>Product List</h3>
         <div className="container">
@@ -40,16 +49,20 @@ export default function ProductList() {
             </div>
             <div className="row mt-3">
                 {filteredProducts.map((product) => {
-                    return <div className="col-sm-3" key={product.id}>
+                    const { id, title, image, price, category, description, rating } = product;
+                    return <div className="col-sm-3" key={id}>
                         <div className="card">
-                            <img src={product.image} className="card-img-top" alt="..." style={{ height: "200px" }} />
+                            <img src={image} className="card-img-top" alt="..." style={{ height: "200px" }} />
                             <div className="card-body">
-                                <h5 className="card-title">{product.category}</h5>
-                                <p className="card-text text-truncate">{product.title}</p>
-                                <p className="card-text text-truncate">{product.description}</p>
-                                <p className="card-text">{product.price}</p>
-                                <p className="card-text">{product.rating.rate}</p>
-                                <a href="#" className="btn btn-primary">Details</a>
+                                <h5 className="card-title">{category}</h5>
+                                <p className="card-text text-truncate">{title}</p>
+                                <p className="card-text text-truncate">{description}</p>
+                                <p className="card-text">{price}</p>
+                                <p className="card-text">{rating.rate}</p>
+                                <button className="btn btn-secondary" onClick={() => {
+                                    navigateHandler(id, title, price);
+                                }}>details</button>
+
                             </div>
                         </div>
                     </div>

@@ -129,3 +129,7 @@ Passcode: SbiN6@ta
 React_day_20_nov_22:
 https://zoom.us/rec/share/Tir-SELELNdhR_Yp0RN8n12w4G4Ib6j442wt7CKbKDpUcssOY6eYoOH-cV4MVq71.QDjj21FenltOSs0E
 Passcode: zi$d5KKs
+
+React_day_21_nov_23:
+https://zoom.us/rec/share/W0sP7CQEl62qDFU0HUh6kXURZr6PD1qu45dzInSskdjYVV2h4VwXQ97Jn3BPlcIm.Ie4ynPnpmWS52uqw
+Passcode: Wn=6q8YL
