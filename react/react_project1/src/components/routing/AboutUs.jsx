@@ -1,7 +1,19 @@
-import React from 'react'
+import { Link, useNavigate } from 'react-router';
 
 export default function AboutUs() {
-  return (
+  const navigate = useNavigate();
+
+  const doSomethingAndGoToHome = () => {
+    console.log('Execute Some Logic....');
+    navigate('/home');
+  }
+
+  return <>
     <div>AboutUs</div>
-  )
+    <a href="/home">Go To Home</a>
+    <br />
+    <Link to="/home">Go To Home</Link>
+    <br />
+    <button className="btn btn-primary" onClick={doSomethingAndGoToHome}>do Something And Go To Home</button>
+  </>
 }
