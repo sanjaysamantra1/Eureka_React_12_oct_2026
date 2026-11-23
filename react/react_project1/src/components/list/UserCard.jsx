@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from "react-router";
 
 export default function UserCard(props) {
     const { id, name, username, email, phone, address } = props.user; // props de-structuring
@@ -11,7 +11,7 @@ export default function UserCard(props) {
             <p class="card-text">{email}</p>
             <p class="card-text">{phone}</p>
             <p class="card-text">{address.city}</p>
-            <a href="#" class="btn btn-primary">Details</a>
+            <Link to={`/userdetail/${id}`}>Details</Link>
         </div>
     </div>
 }
