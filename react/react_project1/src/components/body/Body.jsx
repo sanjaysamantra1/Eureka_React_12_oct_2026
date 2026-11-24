@@ -16,7 +16,8 @@ import PhotoTableAxios from "../http/PhotoTableAxios";
 import UserTable from "../http/UserTable";
 import UserTableAxios from "../http/UserTableAxios";
 import FruitList from "../list/FruitList";
-import ProductList from "../list/ProductList";
+const ProductList = lazy(() => import('../list/ProductList')) // Dynamic Import
+
 import Products from "../list/Products";
 import ProductSearch from "../list/ProductSearch";
 import TaskList from "../list/TaskList";
@@ -45,6 +46,7 @@ import PermanentJobs from "../routing/PermanentJobs";
 import ContractJobs from "../routing/ContractJobs";
 import UploadVideos from "../routing/UploadVideos";
 import ProtectedRoute from "../routing/ProtectedRoute";
+import { lazy, Suspense } from "react";
 
 export default function Body() {
     const sayHello = () => { alert('Helloooo') };
@@ -96,16 +98,20 @@ export default function Body() {
             <Route exact path="/careers" element={<Careers />}>
                 <Route index element={<PermanentJobs />} />
                 <Route path="/careers/permanent" element={<PermanentJobs />} />
-                <Route path="/careers/contract" element={<ContractJobs />} />   
+                <Route path="/careers/contract" element={<ContractJobs />} />
             </Route>
             <Route exact path="/contactus" element={<ContactUs />} />
             <Route exact path="/users" element={<UserList />} />
             <Route path="/userdetail/:id" element={<UserDetail />} />
-            <Route exact path="/products" element={<ProductList />} />
+            <Route exact path="/products" element={
+                <Suspense fallback={<div>Loading...</div>}>
+                    <ProductList />
+                </Suspense>
+            } />
             <Route exact path="/productdetails" element={<ProductDetails />} />
             <Route exact path="/upload" element={
                 <ProtectedRoute>
-                    <UploadVideos/>
+                    <UploadVideos />
                 </ProtectedRoute>} />
             <Route path="*" element={<NotFound />} />
         </Routes>

@@ -133,3 +133,7 @@ Passcode: zi$d5KKs
 React_day_21_nov_23:
 https://zoom.us/rec/share/W0sP7CQEl62qDFU0HUh6kXURZr6PD1qu45dzInSskdjYVV2h4VwXQ97Jn3BPlcIm.Ie4ynPnpmWS52uqw
 Passcode: Wn=6q8YL
+
+React_day_22_nov_24:
+https://zoom.us/rec/share/HF6M3yDUaTZLDmnQ1snidRF3N56uv2kgSIyfNI082t3F71FEg4b-QfwOQJuItGvy.Wqdh3zukDlggEK_J
+Passcode: 7!CNE7&u
