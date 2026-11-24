@@ -41,6 +41,10 @@ import ContactUs from "../routing/ContactUs";
 import NotFound from "../routing/NotFound";
 import UserDetail from "../routing/UserDetail";
 import ProductDetails from "../routing/ProductDetails";
+import PermanentJobs from "../routing/PermanentJobs";
+import ContractJobs from "../routing/ContractJobs";
+import UploadVideos from "../routing/UploadVideos";
+import ProtectedRoute from "../routing/ProtectedRoute";
 
 export default function Body() {
     const sayHello = () => { alert('Helloooo') };
@@ -89,12 +93,20 @@ export default function Body() {
             <Route exact path="/" element={<Home />} />
             <Route exact path="/home" element={<Home />} />
             <Route exact path="/aboutus" element={<AboutUs />} />
-            <Route exact path="/careers" element={<Careers />} />
+            <Route exact path="/careers" element={<Careers />}>
+                <Route index element={<PermanentJobs />} />
+                <Route path="/careers/permanent" element={<PermanentJobs />} />
+                <Route path="/careers/contract" element={<ContractJobs />} />   
+            </Route>
             <Route exact path="/contactus" element={<ContactUs />} />
             <Route exact path="/users" element={<UserList />} />
             <Route path="/userdetail/:id" element={<UserDetail />} />
             <Route exact path="/products" element={<ProductList />} />
             <Route exact path="/productdetails" element={<ProductDetails />} />
+            <Route exact path="/upload" element={
+                <ProtectedRoute>
+                    <UploadVideos/>
+                </ProtectedRoute>} />
             <Route path="*" element={<NotFound />} />
         </Routes>
     </div>
