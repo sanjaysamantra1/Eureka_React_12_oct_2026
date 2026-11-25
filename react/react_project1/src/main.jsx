@@ -7,12 +7,15 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { BrowserRouter } from 'react-router';
 import { UserProvider } from './context/userContext.jsx';
+import { ThemeProvider } from './context/themeContext.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <UserProvider>
-        <App />
+        <ThemeProvider>
+          <App />
+        </ThemeProvider>
       </UserProvider>
     </BrowserRouter>
   </StrictMode>
