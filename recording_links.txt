@@ -141,3 +141,7 @@ Passcode: 7!CNE7&u
 React_day_23_nov_25:
 https://zoom.us/rec/share/jgxOykQPQVrgdEUj-vAgvQOXWHb6Uk3oDF4d33aLZsTv2Njn-L8vPFyroRWuNs3F.28NbwH1EZFhmwe2Q
 Passcode: 1zvv77C&
+
+React_day_24_nov_26:
+https://zoom.us/rec/share/WJsi-6JlVqw6QHI6WFNcS1J02K2fVfGuj59t7vQuVhgsqRQitrqoZjoGSOkTmR5G.dI9smIRyuEFJ3vHx
+Passcode: Uv.5mk$g
