@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { UserContext } from '../../context/userContext';
 import { ThemeContext } from '../../context/themeContext';
+import CounterDemo from '../redux/CounterDemo';
 
 export default function Home() {
   const userContext = useContext(UserContext);  // use the context
@@ -8,7 +9,8 @@ export default function Home() {
 
   return <>
     <div>Home</div>
-    <div>Logged in User: {userContext.user.name}</div>
-    <div>Theme: {themeContext.theme}</div>
+    {/* <div>Logged in User: {userContext.user.name}</div>
+    <div>Theme: {themeContext.theme}</div> */}
+    <CounterDemo/>
   </>
 }

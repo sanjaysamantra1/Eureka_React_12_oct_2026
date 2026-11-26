@@ -8,13 +8,17 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import { BrowserRouter } from 'react-router';
 import { UserProvider } from './context/userContext.jsx';
 import { ThemeProvider } from './context/themeContext.jsx';
+import { Provider } from 'react-redux';
+import { myStore } from './store/store.js';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <UserProvider>
         <ThemeProvider>
-          <App />
+          <Provider store={myStore}>
+            <App />
+          </Provider>
         </ThemeProvider>
       </UserProvider>
     </BrowserRouter>
