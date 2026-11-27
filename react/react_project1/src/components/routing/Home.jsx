@@ -1,20 +1,20 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { UserContext } from '../../context/userContext';
 import { ThemeContext } from '../../context/themeContext';
-import CounterDemo from '../redux/CounterDemo';
-import ToDoList from '../redux/ToDoList';
-import UseReducerDemo from '../hooks/UseReducerDemo';
+
 
 export default function Home() {
-  const userContext = useContext(UserContext);  // use the context
-  const themeContext = useContext(ThemeContext);  // use the context
+  // const userContext = useContext(UserContext);  // use the context
+  // const themeContext = useContext(ThemeContext);  // use the context
+
+  const api_url = import.meta.env.VITE_API_URL;
 
   return <>
-    <div>Home</div>
+    <div>Home-{api_url}</div>
     {/* <div>Logged in User: {userContext.user.name}</div>
     <div>Theme: {themeContext.theme}</div> */}
     {/* <CounterDemo/> */}
     {/* <ToDoList/> */}
-    <UseReducerDemo/>
+    {/* <UseReducerDemo/> */}
   </>
 }
