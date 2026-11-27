@@ -3,6 +3,7 @@ import { UserContext } from '../../context/userContext';
 import { ThemeContext } from '../../context/themeContext';
 import CounterDemo from '../redux/CounterDemo';
 import ToDoList from '../redux/ToDoList';
+import UseReducerDemo from '../hooks/UseReducerDemo';
 
 export default function Home() {
   const userContext = useContext(UserContext);  // use the context
@@ -13,6 +14,7 @@ export default function Home() {
     {/* <div>Logged in User: {userContext.user.name}</div>
     <div>Theme: {themeContext.theme}</div> */}
     {/* <CounterDemo/> */}
-    <ToDoList/>
+    {/* <ToDoList/> */}
+    <UseReducerDemo/>
   </>
 }
